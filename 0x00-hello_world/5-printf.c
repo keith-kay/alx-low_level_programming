@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main function - Prints "with proper grammar, but the outcome is a 
- * 			piece of art, "
+ * main function
  * return 0
  */
 int main(void)
