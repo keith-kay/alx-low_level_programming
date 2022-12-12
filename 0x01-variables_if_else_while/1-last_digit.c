@@ -4,7 +4,7 @@
 
 /**
  * main - Prints the last digit of the number
- * Return - Always (Success)
+ * Return: Always (Success)
  *
  */
 
