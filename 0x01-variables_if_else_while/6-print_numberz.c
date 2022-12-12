@@ -3,6 +3,11 @@
 #include <stdlib.h>
 
 #include <time.h>
+/**
+ * main - prints single digit numbers
+ * Return - Always (Success)
+ *
+ */
 int main(void)
 {
 	int x;
@@ -11,6 +16,5 @@ int main(void)
 		putchar((x % 10) + '0');
 	putchar('\n');
 
-	return (0);
-	
+	return (0);	
 }
