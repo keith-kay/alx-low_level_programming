@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - prints the last digit of the number
+ * main - Prints the last digit of the number
  * return - Always (Success)
  *
  */
@@ -29,4 +30,3 @@ int  main(void)
 	}
 	return (0);
 }
-	
