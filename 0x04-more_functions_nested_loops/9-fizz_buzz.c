@@ -3,7 +3,7 @@
 
 /**
  * main - prints a fizz buzz 
- * Return: ALways (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,24 +13,25 @@ int main(void)
 	{
 	if ((c % 3 == 0) && (c % 5 == 0))
 	{
-	printf("FizBuzz");
+		printf("FizBuzz");
 	}
 	else if (c % 3 == 0)
 	{
-	printf("Fizz");
+		printf("Fizz");
 	}
 	else if ( c % 5 == 0)
 	{
-	printf("Buzz");
+		printf("Buzz");
 	}
 	else
 	{
-	printf("%d", c);
+		printf("%d", c);
 	}
 	if (c != 100)
 	{
-	printf(" ");
+		printf(" ");
 	}
-	}printf("\n");
+	}
+	printf("\n");
 	return (0);
 }	
