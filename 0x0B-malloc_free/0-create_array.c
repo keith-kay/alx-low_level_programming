@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 /**
  * create_array - create array of size and assign char c
  * @size: size of array
@@ -29,7 +29,7 @@ char *create_array(unsigned int size, char c)
 		while (i < size)
 		{
 			*(str + i) = c;
-			position;
+			i++;
 		}
 		return (str);
 	}
